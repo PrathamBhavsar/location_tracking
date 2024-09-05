@@ -38,7 +38,7 @@ class _LocationTrackerScreenState extends State<LocationTrackerScreen> {
   DateTime? _appOpenedTime;
 
   static const platform =
-      MethodChannel('com.yourcompany.yourapp/foreground_service');
+      MethodChannel('com.example.location_tracking/foreground_service');
 
   @override
   void initState() {
